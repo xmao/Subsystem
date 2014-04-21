@@ -12,24 +12,32 @@ else
     ARCH='i386'
 fi
 
+export PS1="\h:\W \u\$ "
+export PS2=">"
+
 # Alias
 alias b='bc -l'
 alias c='clear'
 alias d='du -h -d 1'
+alias dw='date +%W'
 alias e='emacsclient -n --alternate-editor emacs'
 alias f='file'
 alias g='grep --color=auto -i'
+alias less='less -R'
 alias l='less'
 alias la='ls -A'
+alias lg='ls -lh | grep -i --color=auto'
 alias ll='ls -l'
+alias more='more -R'
 alias m='more'
 alias n='kit sprint latest'
 alias o='open'
-alias s='screen'
+alias s='subl'
+alias sos="SubOS='macports' bash -l"
 alias t='top -o cpu'
 alias w='wc -l'
 
-if which mvim > /dev/null; then
+if which mvim 1> /dev/null 2>&1; then
 	alias v='mvim'
 else
 	alias v='vim'

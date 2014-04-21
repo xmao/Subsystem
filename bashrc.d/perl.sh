@@ -5,5 +5,5 @@
 
 # perl -MCPAN -e shell
 # perl -MCPAN -e 'install UI::Dialog'
-export PERLLIB=".:$HOME/usr/lib/site-perl"
+export PERLLIB=".:$HOME/usr/lib/site-perl:$HOME/usr/lib/site-perl/darwin-thread-multi-2level/"
 

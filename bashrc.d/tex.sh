@@ -10,3 +10,4 @@
 # export INFOPATH=$TEXMFMAIN/doc/info:$INFOPATH
 # export MANPATH=$TEXMFMAIN/doc/man:$MANPATH
 # export PATH=$TEXDIR/bin/i386-linux:$PATH
+# export PATH=/usr/texbin:$PATH

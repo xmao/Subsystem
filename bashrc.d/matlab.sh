@@ -1,2 +1,2 @@
-# export MATLAB_JAVA=/usr/lib/jvm/java-6-sun/jre/
+export MATLAB_JAVA=/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/
 alias mm='matlab'

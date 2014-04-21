@@ -1,1 +1,1 @@
-export KITROOT=$HOME/projects/kit/scripts
+export KITROOT=$HOME/Softwares/kit/scripts
